@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-header">
+            <h2>Kontak Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut, silakan isi formulir di bawah ini atau hubungi kami melalui email.</p>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <form action="mailto:info@website.com" method="post" enctype="text/plain">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                
+                <button type="submit" class="cta-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Hubungi Kami: info@website.com</p>
+    </footer>
+</body>
+</html>
